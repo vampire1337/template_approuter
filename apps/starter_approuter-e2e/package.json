@@ -1,0 +1,10 @@
+{
+  "name": "@starter-approuter/starter_approuter-e2e",
+  "version": "0.0.1",
+  "private": true,
+  "nx": {
+    "implicitDependencies": [
+      "@starter-approuter/starter_approuter"
+    ]
+  }
+}
