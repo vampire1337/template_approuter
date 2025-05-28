@@ -1,4 +1,3 @@
-
 # template_approuter — Coding Contract (Next.js 14 + Nx)
 
 ## 1 · Architecture Layers
@@ -81,4 +80,17 @@ describe('POST /api/user', () => {
 4. For large features:  *plan → implement → test → refine* .
 
 > Always return either a **minimal diff** or a concise explanation when requested — no extra text.
->
+
+
+
+## 6 · Repository discovery checklist  ✅
+
+*Before you start coding a feature, always:*
+
+1. Run `nx show projects` and `nx graph` to see existing libs and tags.
+2. Open `eslint.config.mjs` to remind yourself of tag boundaries.
+3. Run `npm run test` — all tests must stay green (coverage ≥ 80 %).
+4. After changes: `npm run build` must compile without errors.
+5. If you add e2e, append `[e2e]` flag to the commit message so CI runs Playwright.
+
+_Never commit code that violates any of the above._

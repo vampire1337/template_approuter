@@ -40,7 +40,7 @@
 
 1. **Clone the template**
    ```bash
-   gh repo create my-app --template YOUR_GH_USER/template_approuter --clone
+   gh repo create my-app --template vampire1337/template_approuter --clone
    cd my-app && npm install
    cp .env.example .env.local   # tweak variables
    git add . && git commit -m "chore: init"
@@ -75,7 +75,7 @@ ESLint `@nx/enforce-module-boundaries` blocks violations.
 | `[e2e]`    | run Playwright tests              |
 | `[deploy]` | run Playwright + deploy to Vercel |
 
-Happy hacking! 
+Happy hacking!
 
 `<a alt="Nx logo" href="https://nx.dev" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/nrwl/nx/master/images/nx-logo.png" width="45">``</a>`
 

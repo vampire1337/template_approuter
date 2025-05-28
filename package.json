@@ -2,7 +2,11 @@
   "name": "@starter-approuter/source",
   "version": "0.0.0",
   "license": "MIT",
-  "scripts": {},
+  "scripts": {  "dev": "nx dev template_approuter",
+  "build": "nx build template_approuter",
+  "test": "nx run-many -t lint,test --all",
+  "e2e": "nx run-many -t e2e --all",
+  "bootstrap": "node ./tools/bootstrap.js"},
   "private": true,
   "dependencies": {
     "next": "~15.2.4",
